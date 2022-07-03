@@ -1,0 +1,128 @@
+html * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'raleway', sans-serif;
+    background-color: #000000;
+}
+
+/* NAV */
+
+nav {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+nav h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+/* HEADER */
+
+/* primera opcion */
+header img {
+    width: 100%;
+}
+
+/* 2da opcion
+header {
+    background-image: url("../img/bg-header.jpg");
+    background-size: cover;
+    height: 50vh;
+    background-position: center;       hasta este punto no cuadra bien porque esta responsivo 
+*/
+
+.desc-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.desc-section__parrafo {
+    font-weight: 300;
+    color: #ffffff;
+    width: 40%;
+    padding-right: 5%;
+    font-size: 16px;
+}
+
+.parrafoprincipal {
+    margin-bottom: 25px;
+}
+
+.contenedor-img {
+    width: 25%;
+}
+
+.contenedor-img img {
+    width: 100%;
+}
+
+/* ESTILO ICONOS */
+
+.icons {
+    color: #ffffff;
+    background-color: #1E1A13;
+}
+
+.icons h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.icons I {
+    font-size: 40px;
+}
+
+.icons div {
+    text-align: center;
+}
+
+.icons h3 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.iconscontenedor {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 0;
+}
+
+
+/* IMAGENES */
+
+.images {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.images img {
+    width: 316px;
+    height: 202px;
+    margin: 8px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: #1E1A13;
+    color: #ffffff;
+    padding: 3%;
+}
+
+footer h3 {
+    font-weight: 300;
+    text-align: center;
+}
